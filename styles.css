@@ -1,0 +1,443 @@
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.side-bar {
+    margin-bottom: -30px;
+}
+
+.checkout {
+    background: #F3F3F3;
+    padding: 100px 50px;
+    height: 690px;
+}
+
+.container {
+    width: 694px;
+    height: 582px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.15);
+    border-radius: 32px;
+    margin: 50px auto;
+}
+
+.email {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1B1C1E;
+}
+
+.money {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FF6B00;
+}
+
+.main-container {
+    width: 478px;
+    height: 405px;
+    background: #FFF8F2;
+    border-radius: 24px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cvv-box {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.pay-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: -55px;
+}
+
+.date-box {
+    margin-left: 32px;
+}
+
+.box-item {
+    box-sizing: border-box;
+    width: 130px;
+    height: 77px;
+    background: #FFF8F2;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 25px;
+    margin: 10px 50px;
+}
+
+.box {
+    text-align: center;
+}
+
+.box:hover {
+    color: white;
+}
+
+.box-item:hover {
+    background: #FF6B00;
+}
+
+button:hover {
+    background: #FF6B00;
+}
+
+#img:hover {
+    color: white;
+}
+
+#orange {
+    background: #FF6B00;
+}
+
+#ussd {
+    margin: -6px 40px;
+}
+
+.word {
+    line-height: 12px;
+    margin: -4px 23px;
+    font-size: small;
+    font-family: "Poppins", sans-serif;
+    white-space: nowrap;
+}
+
+.cancel {
+    width: 225px;
+    height: 48px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 10px;
+    color: #FFFFFF;
+    background: #1B1C1E;
+}
+
+.pay-c {
+    width: 225px;
+    height: 48px;
+    margin-left: -5px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #1B1C1E;
+}
+
+#pay {
+    background: #FF6B00;
+}
+
+button {
+    width: 225px;
+    height: 48px;
+    border-radius: 12px;
+    border: 2px #FF6B00;
+}
+
+.line {
+    border: 1px solid rgba(255, 107, 0, 0.75);
+    margin-top: -25px;
+}
+
+.payment-box {
+    width: 618px;
+    height: 340px;
+}
+
+.marcy-box {
+    box-sizing: border-box;
+    width: 457px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1.5px solid #FF6B00;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.p-word {
+    line-height: 12px;
+    margin: -4px 23px;
+    color: white;
+    font-size: small;
+    font-family: "Poppins", sans-serif;
+}
+
+.cvv {
+    box-sizing: border-box;
+    width: 225px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1.5px solid rgba(27, 28, 30, 0.5);
+    border-radius: 12px;
+    margin: 40px -35px;
+    margin-left: -45px;
+    padding: 10px;
+}
+
+.expiry {
+    box-sizing: border-box;
+    width: 225px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1.5px solid rgba(27, 28, 30, 0.5);
+    border-radius: 12px;
+    margin: 40px -35px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold black;
+    font-size: 26px;
+    line-height: 32px;
+    color: #000000;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold black;
+    margin-top: -10px;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.business-logo {
+    width: 100px;
+    height: 25px;
+    padding: 15px;
+    background: #D9D9D9;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: -77px;
+    text-align: center;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+svg {
+    width: 80px;
+    height: 40px;
+    margin: 0px 3px;
+}
+
+.secured {
+    line-height: 8px;
+    margin: 20px 3px;
+    font-size: small;
+    font-family: "Poppins", sans-serif;
+}
+
+.padlock {
+    width: 30px;
+    height: 25px;
+    margin: 10px 3px;
+}
+
+/* Responsive Media Queries */
+
+@media (max-width: 1200px) {
+    .top-bar, .main-body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .checkout {
+        padding: 50px 20px;
+        height: auto;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+    }
+
+    .main-container {
+        width: 90%;
+        height: auto;
+    }
+
+    .payment-box, .marcy-box {
+        width: 100%;
+    }
+
+    .cvv-box {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .cvv, .expiry {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .pay-box {
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 30px; /* Increased margin-top for mobile view */
+    }
+
+    .cancel, .pay-c {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .box-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .business-logo {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .icon {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .checkout {
+        padding: 30px 10px;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .payment-box, .marcy-box {
+        width: 100%;
+    }
+
+    .cvv, .expiry {
+        width: 100%;
+    }
+
+    .pay-box {
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 40px; /* Increased margin-top for mobile view */
+    }
+
+    .cancel, .pay-c {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .box-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .business-logo {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .icon {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .top-bar, .main-body {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .checkout {
+        padding: 20px 10px;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .payment-box, .marcy-box {
+        width: 100%;
+    }
+
+    .cvv-box {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .cvv, .expiry {
+        width: 100%;
+    }
+
+    .pay-box {
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 50px; /* Increased margin-top for mobile view */
+    }
+
+    .cancel, .pay-c {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .box-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .business-logo {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .icon {
+        margin: 0 auto;
+    }
+}
